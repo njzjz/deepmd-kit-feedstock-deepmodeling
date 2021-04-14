@@ -220,6 +220,7 @@ Installing `deepmd-kit` from the `deepmodeling` channel can be achieved by addin
 
 ```
 conda config --add channels deepmodeling
+conda config --set channel_priority strict
 ```
 
 Once the `deepmodeling` channel has been enabled, `deepmd-kit` can be installed with:

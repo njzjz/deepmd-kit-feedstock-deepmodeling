@@ -35,9 +35,9 @@ c_compiler_version:
 cxx_compiler_version:
 - 5.4
 channel_sources:
-- deepmodeling,defaults
+- deepmodeling,deepmodeling/label/dev,defaults
 channel_targets:
-- deepmodeling main
+- deepmodeling dev
 python:
 - 3.7.*
 - 3.8.*
